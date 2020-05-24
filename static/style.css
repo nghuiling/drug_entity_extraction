@@ -1,0 +1,77 @@
+
+
+.main-section{
+	margin:0 auto;
+	padding: 20px;
+	margin-top: 100px;
+	background-color: #fff;
+/*	box-shadow: 0px 0px 20px #FFEBF5;*/
+}
+#custom_card{
+	background-color:#FFEBF5;
+	color:#000000;
+	padding:10px;
+	border:0.5px solid #B9B9B9;
+}
+#custom_card2{
+	background-color:#fff;
+	color:#000000;
+	padding:10px;
+	border:0.5px solid #B9B9B9;
+}
+
+
+/*button*/
+
+.myButton1 {
+	background:url(/static/button1.jpg) no-repeat;
+    color: #B9B9B9;
+/*    text-shadow:0px 1px 0px #ffffff;*/
+	border-radius:18px;
+	border:0.5px solid #B9B9B9;
+	display:inline-block;
+	cursor:pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	padding:6px 24px;
+
+}
+
+.myButton1:hover {
+	background:url(/static/button4.jpg) no-repeat;
+    color: #B9B9B9;
+}
+
+
+.myButton1:active {
+	background:url(/static/button3.jpg) no-repeat;
+    color: #B9B9B9;
+}
+
+
+.myButton1:focus {outline:0;}
+
+
+textarea.form-control {
+	background-color:#fff;
+	border-color: #B9B9B9;
+    color: #B9B9B9;
+  	margin: 0;
+	padding: 0;
+
+}
+
+textarea.form-control:focus {
+  border-color: #B9B9B9;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+h2{
+	letter-spacing: -3px;
+}
+
+
+footer{
+  margin-top:auto; 
+}
