@@ -4,7 +4,7 @@ certifi==2020.4.5.1
 chardet==3.0.4
 click==7.1.2
 cymem==2.0.3
-en-core-med7-lg==0.0.2
+https://med7.s3.eu-west-2.amazonaws.com/en_core_med7_lg.tar.gz
 Flask==1.1.2
 Flask-Markdown==0.3
 gunicorn==20.0.4
