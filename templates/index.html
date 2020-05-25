@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 
 
-  
     <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 <!-- Bootstrap core CSS -->
@@ -17,8 +16,6 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/css/mdb.min.css" rel="stylesheet">
 
 </head>
-
-
 <body>
 
 <div class="jumbotron" style="background-image: url('static/drugs.jpg')">
@@ -42,8 +39,7 @@
 	Enter your text:
 
 	<form method="POST" action="{{url_for('extract')}}">
-		<textarea rows="5" cols="5" required="true" name="rawtext" class="form-control">
-		</textarea><br>
+		<textarea rows="5" cols="5" required="true" name="rawtext" class="form-control"></textarea><br>
         <button type="submit" class="myButton1">Submit</button>
 	</form>
 </div>

@@ -56,8 +56,8 @@ textarea.form-control {
 	background-color:#fff;
 	border-color: #B9B9B9;
     color: #B9B9B9;
-  	margin: 0;
-	padding: 0;
+  	margin: 5;
+	padding: 5;
 
 }
 
@@ -70,6 +70,27 @@ textarea.form-control:focus {
 h2{
 	letter-spacing: -3px;
 }
+
+/* unvisited link */
+a:link {
+  color: #E40000;
+}
+
+/* visited link */
+a:visited {
+  color: #E40000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #BE0101;
+}
+
+/* selected link */
+a:active {
+  color: #E40000;
+}
+
 
 
 footer{
