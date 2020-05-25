@@ -7,4 +7,4 @@ A simple Flask application to recognise drugs from text.<br>
 
 <b>Demo:</b><br><br>
 
-<img src='static/drug.jpg'>
+<img src='static/drug.gif'>
